@@ -87,6 +87,7 @@ group :development do
   gem 'sqlite3'
 end
 
-grou
+group :production do
 gem 'pg', '~> 0.18'
 gem 'rails_12factor'
+end
