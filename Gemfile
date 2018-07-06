@@ -7,8 +7,7 @@ gem 'rails-ujs', '~> 0.1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
-gem 'pg', '~> 0.18'
-gem 'rails_12factor'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -81,5 +80,14 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.4', '>= 4.4.3'
 
 group :development, :test do
-gem 'foreman'
+  gem 'foreman'
+end
+
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg', '~> 0.18'
+  gem 'rails_12factor'
 end
