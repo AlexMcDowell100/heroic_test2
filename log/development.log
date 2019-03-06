@@ -10816,3 +10816,353 @@ Processing by GinloversController#index as HTML
 Completed 200 OK in 104ms (Views: 101.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-02-19 18:26:10 +0000
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (436.8ms)
+Completed 500 Internal Server Error in 584ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1066910341742620451_70333330387540'
+Started GET "/" for 127.0.0.1 at 2019-02-19 18:26:17 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1066910341742620451_70333321455600'
+Started GET "/" for 127.0.0.1 at 2019-02-19 18:29:30 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1066910341742620451_70333347345580'
+Started GET "/" for 127.0.0.1 at 2019-02-19 18:29:55 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1066910341742620451_70333320934180'
+Started GET "/" for 127.0.0.1 at 2019-02-19 18:29:58 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1066910341742620451_70333319791340'
+Started GET "/" for 127.0.0.1 at 2019-02-19 18:30:07 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1066910341742620451_70333303099320'
+Started GET "/" for 127.0.0.1 at 2019-02-19 18:31:32 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1066910341742620451_70333303719680'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:39:34 +0000
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (264.0ms)
+Completed 500 Internal Server Error in 330ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1437931502049381248_70210653772980'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:46:35 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1437931502049381248_70210654879200'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:47:10 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1437931502049381248_70210669916760'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:48:54 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1437931502049381248_70210674970520'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:49:41 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1437931502049381248_70210630295660'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:49:44 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1437931502049381248_70210673774500'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:49:46 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1437931502049381248_70210670210720'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:51:14 +0000
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (193.9ms)
+Completed 500 Internal Server Error in 243ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3024813925147598073_70336817523420'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:51:17 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3024813925147598073_70336806400700'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:55:10 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/alexmcdowell/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (236.2ms)
+Completed 500 Internal Server Error in 283ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4231890790284264971_70218267034920'
+Started GET "/" for 127.0.0.1 at 2019-03-03 13:55:15 +0000
+Processing by GinloversController#index as HTML
+  Rendering ginlovers/index.html.erb within layouts/application
+  Rendered ginlovers/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( _global.css )` to `config/initializers/assets.rb` and restart your server):
+    4:     <title>Blog</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= csp_meta_tag %>
+    7:     <%= stylesheet_link_tag    '_global', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= stylesheet_link_tag    'posts', media: 'all', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_link_tag    '_ginlovers', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4231890790284264971_70218291920580'
